@@ -210,6 +210,10 @@ dependencies = [
 [[package]]
 name = "gen-key"
 version = "0.1.0"
+dependencies = [
+ "lib-utils",
+ "rand",
+]
 
 [[package]]
 name = "generic-array"
@@ -291,6 +295,7 @@ dependencies = [
  "enum_dispatch",
  "hmac",
  "lazy-regex",
+ "lib-utils",
  "serde",
  "sha2",
  "tokio",

@@ -1,4 +1,4 @@
-inventory-backend/target/
+rust-quasar/server-backend/target/
 
 inventory-frontend/.DS_Store
 inventory-frontend/.thumbs.db
@@ -37,3 +37,4 @@ inventory-frontend/*.sln
 
 # local .env files
 inventory-frontend/.env.local*
+

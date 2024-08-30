@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+# --- App crate libs
+lib-utils = { path = "../../libs/lib-utils" }
+# --- Others
+rand = "0.8"
 
 [lints]
 workspace = true

@@ -10,7 +10,7 @@ pub fn get_env_parse<T: FromStr>(name: &'static str) -> Result<T> {
     val.parse::<T>().map_err(|_| Error::WrongFormat(name))
 }
 
-pub fn get_env_b64i_as_u8s(name: &'static str) -> Result<Vec<u8>> {
+pub fn get_env_b64u_as_u8s(name: &'static str) -> Result<Vec<u8>> {
     b64u_decode(&get_env(name)?).map_err(|_| Error::WrongFormat(name))
 }
 
